@@ -23,12 +23,12 @@ namespace Demo.Controllers.api
         }
 
         // POST: api/sample
-        public void Post([FromBody]string value)
+        public void Post(HR030 value)
         {
         }
 
         // PUT: api/sample/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, HR030 value)
         {
         }
 
