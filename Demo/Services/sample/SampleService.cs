@@ -11,7 +11,7 @@ namespace Demo.Services.sample
     {
         public HR030 GetEMPNO()
         {
-            var repository = new SampleRepository();
+            var repository = new SampleRepository2();
             var result = repository.GetHR030();
             return result;
         }

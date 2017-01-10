@@ -200,6 +200,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\sample\SampleRepository.cs" />
     <Compile Include="Repositories\sample\ISampleRepository.cs" />
+    <Compile Include="Repositories\sample\SampleRepository2.cs" />
     <Compile Include="Services\sample\SampleService.cs" />
     <Compile Include="Services\sample\ISampleService.cs" />
     <Compile Include="Startup.cs" />
