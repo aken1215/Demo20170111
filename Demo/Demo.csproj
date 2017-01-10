@@ -198,6 +198,10 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\sample\SampleRepository.cs" />
+    <Compile Include="Repositories\sample\ISampleRepository.cs" />
+    <Compile Include="Services\sample\SampleService.cs" />
+    <Compile Include="Services\sample\ISampleService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -270,8 +274,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
     <Folder Include="TypeScripts\Bases\" />
     <Folder Include="TypeScripts\Components\" />
   </ItemGroup>

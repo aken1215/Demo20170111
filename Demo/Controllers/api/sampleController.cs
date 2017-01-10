@@ -1,4 +1,5 @@
-﻿using Hank.ViewModel;
+﻿using Demo.Services.sample;
+using Hank.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,11 @@ namespace Demo.Controllers.api
         // GET: api/sample
         public HR030 Get()
         {
-            return new HR030 { EMPNO = "00037313" };
+            var service = new SampleService();
+
+            var result = service.GetEMPNO();
+
+            return result;
         }
 
         // GET: api/sample/5
