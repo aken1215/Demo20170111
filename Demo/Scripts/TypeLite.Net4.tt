@@ -1,6 +1,7 @@
 ﻿<#@ template debug="false" hostspecific="True" language="C#" #>
 <#@ assembly name="$(TargetDir)TypeLite.dll" #>
 <#@ assembly name="$(TargetDir)TypeLite.Net4.dll" #>
+<#@ assembly name="$(TargetDir)Hank.dll" #>
 
 
 <#@ import namespace="TypeLite" #> 
@@ -12,7 +13,8 @@
 
 <# var ts = TypeScript.Definitions()
 		.WithReference("Enums.ts")
-		.ForLoadedAssemblies();
+		.ForLoadedAssemblies()
+		.For<Hank.ViewModel.HR030>();
 #>
 
 <#= ts.Generate(TsGeneratorOutput.Properties) #>
