@@ -1,3 +1,12 @@
-﻿<div>
-    {{MemberCtrl.member.EMPNO}}
-</div>
+﻿
+<table>
+    <tr>
+        <td>員工姓名  </td>
+        <td>更新 </td>
+    </tr>
+
+    <tr>
+        <td> {{MemberCtrl.member.EMPNO}}   </td>
+        <td><input id="morepic" type="button" class="btn btn-success" ng-click="MemberCtrl.Update()" value="更新"> </td>
+    </tr>
+</table>

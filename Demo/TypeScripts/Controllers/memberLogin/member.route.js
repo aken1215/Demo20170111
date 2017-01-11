@@ -22,4 +22,3 @@ function MemberControllerRoute($stateProvider) {
 MemberControllerRoute.$inject = ['$stateProvider'];
 angular.module('Hank.Chen.Controllers')
     .config(MemberControllerRoute);
-//# sourceMappingURL=member.route.js.map

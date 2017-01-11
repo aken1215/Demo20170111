@@ -1,12 +1,13 @@
 ﻿@{
     Layout = null;
 }
-
+@Styles.Render("~/Content/css")
 <div ng-app="Hank.Chen">
 
     <div ui-view></div>
 
 </div>
-
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
 @Scripts.Render("~/bundles/angular")
 @Scripts.Render("~/bundles/app")

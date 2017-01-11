@@ -10,6 +10,10 @@ var Hank;
                     this.name = name;
                     this.name = "Hank";
                 }
+                MemberController.prototype.Update = function () {
+                    this.member.EMPNO = "00012345";
+                    console.log('test');
+                };
                 MemberController.$inject = ['Member'];
                 return MemberController;
             }());
@@ -19,4 +23,3 @@ var Hank;
         })(Controllers = Chen.Controllers || (Chen.Controllers = {}));
     })(Chen = Hank.Chen || (Hank.Chen = {}));
 })(Hank || (Hank = {}));
-//# sourceMappingURL=member.controller.js.map

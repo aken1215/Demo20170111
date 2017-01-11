@@ -7,6 +7,11 @@
         ) {
             this.name = "Hank";
         }
+
+        Update(): void {
+            this.member.EMPNO = "00012345";
+            console.log('test');
+        }
     }
 
 
