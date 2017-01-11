@@ -5,10 +5,18 @@ var Hank;
         var Controllers;
         (function (Controllers) {
             var MemberController = (function () {
-                function MemberController(member, name) {
+                function MemberController(member, memberList, name) {
                     this.member = member;
+                    this.memberList = memberList;
                     this.name = name;
                     this.name = "Hank";
+                    this.memberList =
+                        [
+                            { EMPNO: "VR123456" },
+                            { EMPNO: "VR123457" },
+                            { EMPNO: "VR123458" },
+                            { EMPNO: "VR123459" }
+                        ];
                 }
                 MemberController.prototype.Update = function () {
                     this.member.EMPNO = "00012345";
@@ -23,3 +31,4 @@ var Hank;
         })(Controllers = Chen.Controllers || (Chen.Controllers = {}));
     })(Chen = Hank.Chen || (Hank.Chen = {}));
 })(Hank || (Hank = {}));
+//# sourceMappingURL=member.controller.js.map

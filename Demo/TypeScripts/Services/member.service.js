@@ -22,3 +22,4 @@ var Hank;
         })(Services = Chen.Services || (Chen.Services = {}));
     })(Chen = Hank.Chen || (Hank.Chen = {}));
 })(Hank || (Hank = {}));
+//# sourceMappingURL=member.service.js.map

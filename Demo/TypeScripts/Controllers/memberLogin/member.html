@@ -5,8 +5,8 @@
         <td>更新 </td>
     </tr>
 
-    <tr>
-        <td> {{MemberCtrl.member.EMPNO}}   </td>
+    <tr ng-repeat="member in MemberCtrl.memberList">
+        <td> {{member.EMPNO}}   </td>
         <td><input id="morepic" type="button" class="btn btn-success" ng-click="MemberCtrl.Update()" value="更新"> </td>
     </tr>
 </table>

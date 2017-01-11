@@ -16,3 +16,4 @@ var Hank;
         })(Configs = Chen.Configs || (Chen.Configs = {}));
     })(Chen = Hank.Chen || (Hank.Chen = {}));
 })(Hank || (Hank = {}));
+//# sourceMappingURL=config.route.js.map

@@ -11,3 +11,4 @@ var Sample;
     angular.module('Hank.Chen.Controllers', ['Hank.Chen.Services']);
     angular.module('Hank.Chen.Services', []);
 })(Sample || (Sample = {}));
+//# sourceMappingURL=app.js.map
